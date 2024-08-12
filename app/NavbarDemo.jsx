@@ -24,7 +24,7 @@ function NavbarContent({ className }) {
 
   return (
     <div
-      className={cn("w-full inset-x-0 max-w-2xl mx-auto z-50", className)}
+      className={cn("w-full inset-x-0 max-w-2xl mx-auto z-50 mq750:[display:none]", className)}
     >
       <Menu setActive={setActive}>
         <MenuItem setActive={setActive} active={active} item="About Us">
